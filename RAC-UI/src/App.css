@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Moul&family=Noto+Serif+Khmer:wght@100..900&family=Siemreap&display=swap');
+/* header{
+  width: 100%;
+  font-family: "Moul", serif;
+} */
+.item-nav{
+  font-family: "Moul", serif;
+}
+.moul{
+  font-family: "Moul", serif;
+}
+.nav-title{
+  font-family: "Moul", serif;
+}
+.nav-links{
+  font-family: "Moul", serif;
+  
+}
+.card{
+  font-family: "Noto Serif Khmer", serif;
+}
+.font-moul{
+  font-family: "Moul", serif;
+}
+.title{
+  font-family: "Noto Serif Khmer", serif;
+  
+}
+.description{
+  font-family: "Siemreap", serif;
+}
+.footer {
+  font-family: "Siemreap", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#playVideo:hover #iconPlay{
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+#iconPlay{
+  display: none;
+}
