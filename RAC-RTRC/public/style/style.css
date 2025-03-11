@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&family=Noto+Serif+Khmer:wght@100..900&family=Roboto+Slab:wght@100..900&family=Sofia&display=swap');
+
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.gradient-text {
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(to right, purple, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-text-blue {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to right, black, rgb(17, 17, 207), rgb(37, 37, 37));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 3s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

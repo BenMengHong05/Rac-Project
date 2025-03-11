@@ -35,17 +35,17 @@
     </div>
 </section>
 <section id="Home-Page"
-    class="min-h-[20vh]  lg:pt-0 flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
+    class="min-h-[20vh]   flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
     <div
-        class="container mt-20 pb-20 h-full grid lg:grid-cols-12  w-full items-start justify-center text-white  relative mx-auto lg:gap-10  px-10 lg:px-0">
-        <div class="col-start-1 col-end-4  bg-black/30 backdrop-blur-sm rounded-3xl border-[1.5px] border-white/30">
+        class="container py-10 mb-10 h-full grid lg:grid-cols-12 gap-10  w-full items-start justify-center text-white  relative mx-auto lg:gap-10  px-10 lg:px-0">
+        <div class="lg:col-start-1 lg:col-end-4  bg-black/30 backdrop-blur-sm rounded-3xl border-[1.5px] border-white/30">
             <picture>
                 <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="" class="object-cover w-full rounded-3xl h-[30vh]">
             </picture>
         </div>
         <div
-            class="col-start-4 col-end-13 bg-black/30 min-h-[30vh] backdrop-blur-sm rounded-3xl p-8 border-[1.5px] border-white/30">
+            class="lg:col-start-4 lg:col-end-13 bg-black/30 min-h-[30vh] backdrop-blur-sm rounded-3xl p-8 border-[1.5px] border-white/30">
             <h1 class="roboto-slab m-0 p-0 text-3xl">Add-Ons</h1>
             <p class="text-[1.1rem] mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti
                 veritatis ipsum obcaecati tempora illo iure optio deserunt dicta asperiores quam pariatur, dolores fugit
@@ -60,14 +60,14 @@
                 <span>ថ្ងៃអង្គារ​ ទី១០​ ខែមីនា ឆ្នាំ២០២៥ </span>
             </div>
         </div>
-        <div class="col-start-1 col-end-4  bg-black/30 backdrop-blur-sm rounded-3xl border-[1.5px] border-white/30">
+        <div class="lg:col-start-1 lg:col-end-4  bg-black/30 backdrop-blur-sm rounded-3xl border-[1.5px] border-white/30">
             <picture>
                 <img src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="" class="object-cover w-full rounded-3xl h-[30vh]">
             </picture>
         </div>
         <div
-            class="col-start-4 col-end-13 bg-black/30 min-h-[30vh] backdrop-blur-sm rounded-3xl p-8 border-[1.5px] border-white/30">
+            class="lg:col-start-4 lg:col-end-13 bg-black/30 min-h-[30vh] backdrop-blur-sm rounded-3xl p-8 border-[1.5px] border-white/30">
             <h1 class="roboto-slab m-0 p-0 text-3xl">Groups Of 15+</h1>
             <p class="text-[1.1rem] mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti
                 veritatis ipsum obcaecati tempora illo iure optio deserunt dicta asperiores quam pariatur, dolores fugit
@@ -82,14 +82,14 @@
                 <span>ថ្ងៃអង្គារ​ ទី១០​ ខែមីនា ឆ្នាំ២០២៥ </span>
             </div>
         </div>
-        <div class="col-start-1 col-end-4  bg-black/30 backdrop-blur-sm rounded-3xl border-[1.5px] border-white/30">
+        <div class="lg:col-start-1 lg:col-end-4  bg-black/30 backdrop-blur-sm rounded-3xl border-[1.5px] border-white/30">
             <picture>
                 <img src="https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="" class="object-cover w-full rounded-3xl h-[30vh]">
             </picture>
         </div>
         <div
-            class="col-start-4 col-end-13 bg-black/30 min-h-[30vh] backdrop-blur-sm rounded-3xl p-8 border-[1.5px] border-white/30">
+            class="lg:col-start-4 lg:col-end-13 bg-black/30 min-h-[30vh] backdrop-blur-sm rounded-3xl p-8 border-[1.5px] border-white/30">
             <h1 class="roboto-slab m-0 p-0 text-3xl">Special Offers</h1>
             <p class="text-[1.1rem] mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti
                 veritatis ipsum obcaecati tempora illo iure optio deserunt dicta asperiores quam pariatur, dolores fugit
@@ -116,9 +116,9 @@
     </div>
 </section>
 <section id="Home-Page"
-    class="min-h-[40vh]  lg:pt-0 flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
+    class="min-h-[50vh]  lg:pt-0 flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
     <div
-        class="container mt-20 pb-20 h-full grid lg:grid-cols-3  w-full items-start justify-center text-white  relative mx-auto lg:gap-20  px-10 lg:px-0">
+        class="container py-10 mb-10 h-full grid lg:grid-cols-3  w-full items-start justify-center text-white  relative mx-auto lg:gap-20  px-10 lg:px-0">
         <div class="flex flex-col gap-10 min-h-[50vh]">
             <div class="text text-center">
                 <h1 class="roboto-slab text-3xl m-0 p-0 ">Nature In Phnom Phenh</h1>

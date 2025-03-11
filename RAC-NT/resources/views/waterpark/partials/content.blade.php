@@ -13,7 +13,7 @@
         <picture>
             <img src="https://i.pinimg.com/736x/81/95/56/819556f38acc911ac1c86c7c34e6730c.jpg" class="object-cover rounded-3xl h-[55vh] w-full" alt="">
         </picture>
-        <div class="bg-black/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
+        <div class="bg-black/30 border-[1.5px] border-white/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
             <span>03/05/2025</span>
         </div>
     </div>
@@ -30,9 +30,9 @@
 </section>
 <section id="Home-Page"
     class="min-h-[40vh] flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container mx-auto grid grid-cols-1 pt-10 gap-10 lg:gap-10 px-10 lg:px-0">
+    <div class="container mx-auto grid grid-cols-1 py-10 gap-10 lg:gap-10 px-10 lg:px-0">
         <div class="relative">
-            <div class="carousel-container   relative">
+            <div class="carousel-container relative">
                 <div class="carousel ">
                     <div class="carousel-item  px-5">
                         <div class="bg-black/50 border-[1.5px] border-white/30 h-full  grid lg:grid-cols-12  backdrop-blur-sm rounded-xl text-white ">
@@ -40,14 +40,14 @@
                                 <img src="https://hfe.widen.net/content/adunt3uirt/jpeg/WW23_Rides_Kalani-POV.jpg?crop=true&keep=c&q=80&color=ffffffff&u=bphpyz&w=600&h=400"
                                     class="object-cover h-full rounded-l-xl " alt="Image 1">
                             </div>
-                            <div class=" pt-5 px-10 relative  pb-10 flex flex-col items-start  justify-start lg:col-start-5 lg:col-end-13">
+                            <div class=" pt-5 px-14 relative  pb-10 flex flex-col items-start  justify-start lg:col-start-5 lg:col-end-13">
                                 <h1 class="text-4xl roboto-slab">The Ozarks Tropical Oasis With 13 Acres Of
                                     Slides & Waves</h1>
                                 <p class="text-lg">Watch 100 resident demonstrating craftsmen at work including glass
                                     blowers, potters, blacksmiths and knife makers as they create tomorrow's heirlooms.
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia obcaecati nostrum iusto distinctio totam? Eos vel delectus magnam nobis soluta corporis amet cum? Laudantium, quidem veritatis suscipit deleniti excepturi adipisci.
                                 </p>
-                                <div class="footer text-lg absolute right-10 bottom-10 bg-white/30 rounded-xl px-5 py-1.5 border-[1.5px] border-white/30 backdrop-blur-sm flex gap-2 mt-5 items-center">
+                                <div class="footer text-lg absolute right-10 cursor-pointer hover:bg-black/80 transition-all duration-300 ease-linear bottom-10 bg-white/30 rounded-xl px-5 py-2 border-[1.5px] border-white/30 backdrop-blur-sm flex gap-2 mt-5 items-center">
                                     <span>Learn More</span><i class="fa-solid fa-arrow-right fa-sm"></i>
                                 </div>
                             </div>
@@ -59,12 +59,12 @@
                                 <img src="https://hfe.widen.net/content/iij7cuulk5/png/WW_Photo_Press9.png?w=625&h=355&keep=c&crop=yes&color=ffffff00&quality=80&u=4tmad2"
                                     class="object-cover h-full  rounded-b-3xl" alt="Image 1">
                             </div>
-                            <div class=" pt-5 px-10 pb-10 flex flex-col items-start  justify-start lg:col-start-5 lg:col-end-13">
+                            <div class=" pt-5 px-14 pb-10 flex flex-col items-start  justify-start lg:col-start-5 lg:col-end-13">
                                 <h1 class="text-4xl roboto-slab">Find Us</h1>
                                 <p class="text-xl">From North or South of Branson, Take US-65 S to the MO-76/76 Country
                                     Blvd/Main S exit. Turn left onto W Main St/MO-76/W 76 Country Blvd. Follow for 3.7
                                     mi. The entrance to White Water will be on your right. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aperiam quos amet, dignissimos adipisci laboriosam similique iste distinctio beatae sint delectus alias et numquam enim. Quasi incidunt id quam inventore.</p>
-                                    <div class="footer text-lg absolute right-10 bottom-10 bg-white/30 rounded-xl px-5 py-1.5 border-[1.5px] border-white/30 backdrop-blur-sm flex gap-2 mt-5 items-center">
+                                    <div class="footer text-lg absolute right-10 cursor-pointer hover:bg-black/80 transition-all duration-300 ease-linear bottom-10 bg-white/30 rounded-xl px-5 py-2 border-[1.5px] border-white/30 backdrop-blur-sm flex gap-2 mt-5 items-center">
                                         <span>Learn More</span><i class="fa-solid fa-arrow-right fa-sm"></i>
                                     </div>
                             </div>
@@ -76,13 +76,13 @@
                                 <img src="https://hfe.widen.net/content/g4wdhvgo09/png/OMC20_GENERAL_GlassBlower.png?w=625&h=355&keep=c&crop=yes&color=ffffff00&quality=80&u=4tmad2"
                                     class="object-cover h-full  rounded-b-3xl" alt="Image 1">
                             </div>
-                            <div class=" pt-5 px-10 pb-10 flex flex-col items-start  justify-start lg:col-start-5 lg:col-end-13">
+                            <div class=" pt-5 px-14 pb-10 flex flex-col items-start  justify-start lg:col-start-5 lg:col-end-13">
                                 <h1 class="text-4xl roboto-slab">100 Demonstrating Craftsmen</h1>
                                 <p class="text-xl">Watch 100 resident demonstrating craftsmen at work including glass
                                     blowers, potters, blacksmiths and knife makers as they create tomorrow's heirlooms.
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus error deleniti tempore ipsam cupiditate reprehenderit sit ex alias, vel enim perferendis optio rem aliquam expedita voluptatibus amet voluptatum ad quod.
                                 </p>
-                                <div class="footer text-lg absolute right-10 bottom-10 bg-white/30 rounded-xl px-5 py-1.5 border-[1.5px] border-white/30 backdrop-blur-sm flex gap-2 mt-5 items-center">
+                                <div class="footer text-lg absolute right-10 cursor-pointer hover:bg-black/80 transition-all duration-300 ease-linear bottom-10 bg-white/30 rounded-xl px-5 py-2 border-[1.5px] border-white/30 backdrop-blur-sm flex gap-2 mt-5 items-center">
                                     <span>Learn More</span><i class="fa-solid fa-arrow-right fa-sm"></i>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="px-5  w-full absolute top-[50%]">
-                    <div class="flex justify-between items-center px-2">
+                    <div class="flex justify-between items-center px-4">
                         <button
                             class="prev bg-lime-500  backdrop-blur-sm  border-[1.5px] border-white/30 hover:bg-black/30 hover:text-white transition-all duration-300 delay-100 ease-linear cursor-pointer   px-4 py-3 rounded-full"
                             onclick="moveSlide(-1)">
@@ -118,7 +118,7 @@
 </section>
 <section id="Home-Page"
     class="min-h-[40vh] flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container mx-auto grid lg:grid-cols-12 pt-10 gap-10 lg:gap-10 px-10 lg:px-0">
+    <div class="container mx-auto grid lg:grid-cols-12 py-10 gap-10 lg:gap-10 px-10 lg:px-0">
         <div class="lg:col-start-1 min-h-[60vh] lg:col-end-9 flex flex-col gap-10">
             <div class="min-h-[60vh] relative bg-black/30 border-[1.5px] border-white/30 backdrop-blur-sm rounded-3xl text-white">
                 <picture class="w-full absolute  h-full">
@@ -147,7 +147,7 @@
 </section>
 <section id="Home-Page"
     class="h-full flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container items-start justify-center rounded-3xl  mx-auto grid lg:grid-cols-4 gap-10 lg:px-0 px-10">
+    <div class="container items-start justify-center rounded-3xl py-10  mx-auto grid lg:grid-cols-4 gap-10 lg:px-0 px-10">
         <div class="card-image cursor-pointer z-40 overflow-hidden h-[450px] relative bg-black/30 rounded-xl backdrop-blur-sm">
             <article class="absolute h-full">
                 <img src="https://www.silverdollarcity.com/media/hlbj21bf/625x355-ww-kidtube.jpg"
@@ -203,7 +203,7 @@
             </article>
             <div class="card-content z-0 h-full flex flex-col   px-1 pt-5  mx-2 text-white">
                 <div
-                class=" backdrop-blur-sm text-center w-full p-5 bg-lime-500/60 overflow-container  rounded-t-xl  pb-10  h-full">
+                class=" backdrop-blur-sm text-center w-full p-5 bg-lime-600/80 overflow-container  rounded-t-xl  pb-10  h-full">
                 <h1 class="m-0 p-0 roboto-slab">Development</h1>
                 <div>
                     <p class="text-[1.1rem] mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis nemo atque porro corrupti ducimus fuga amet qui vel eligendi repudiandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, laborum!</p>

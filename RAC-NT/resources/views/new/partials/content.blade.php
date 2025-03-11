@@ -11,7 +11,7 @@
         </div>
         <div class="lg:col-start-7 flex mt-5 lg:mt-0 justify-center items-center h-full  lg:col-end-13">
             <div class="content">
-                <h1 class="roboto-slab font-bold text-4xl m-0 p-0">America's Most Entertaining Dinner Cruise</h1>
+                <h1 class="roboto-slab font-bold text-5xl m-0 p-0">America's Most Entertaining Dinner Cruise</h1>
                 <p class="text-[1.1rem] mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem expedita hic tenetur consequuntur, ipsam animi, eligendi minima et, eos maiores inventore? Suscipit soluta aut itaque rerum pariatur labore veniam est!Nobis, vel! Obcaecati ipsam quod repellat velit, distinctio, magnam ratione blanditiis ipsa et, vero temporibus facere officia. Quis eos sit commodi, recusandae nihil ad, nemo aliquam dolor reiciendis quos expedita!</p>
             </div>
         </div>
@@ -27,7 +27,7 @@
 </section>
 <section id="Home-Page"
     class="min-h-[50vh]  gap-20 flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container px-10 lg:px-0 relative  items-start justify-end  rounded-lg text-white grid lg:grid-cols-2  gap-20  ">
+    <div class="container px-10 lg:px-0 relative py-10  items-start justify-end  rounded-lg text-white grid lg:grid-cols-2  gap-20  ">
         <div class="bg-black/30 p-5 border-[1.5px] border-white/30 grid  grid-cols-12 backdrop-blur-sm rounded-xl">
             <div class="image col-start-1 min-h-[30vh]  col-end-6">
                 <article class="h-full">
@@ -98,7 +98,7 @@
 </section>
 <section id="Home-Page"
     class="min-h-[50vh] flex flex-col items-center justify-center"style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container mt-10 px-10 lg:px-0 items-start justify-center  min-h-[40vh]   rounded-3xl  mx-auto grid lg:grid-cols-2 gap-20">
+    <div class="container  px-10 py-10 lg:px-0 items-start justify-center  min-h-[40vh]   rounded-3xl  mx-auto grid lg:grid-cols-2 gap-20">
         <div class="bg-black/30 p-5 border-[1.5px] border-white/30 grid  grid-cols-12 backdrop-blur-sm rounded-xl">
             <div class="image col-start-1 min-h-[30vh]  col-end-6">
                 <article class="h-full">
@@ -149,7 +149,7 @@
 </section>
 <section id="Home-Page"
     class="min-h-[50vh]  gap-20 flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container px-10 lg:px-0 relative  items-start justify-end  rounded-lg text-white grid lg:grid-cols-2  gap-20  ">
+    <div class="container px-10 lg:px-0 relative  items-start justify-end py-10 rounded-lg text-white grid lg:grid-cols-2  gap-20  ">
         <div class="bg-black/30 p-5 border-[1.5px] border-white/30 grid  grid-cols-12 backdrop-blur-sm rounded-xl">
             <div class="image col-start-1 min-h-[30vh]  col-end-6">
                 <article class="h-full">
@@ -221,7 +221,7 @@
     </div>
 </section>
 <section id="Home-Page"
-    class="min-h-[50vh] flex flex-col items-center justify-center"style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
+    class="min-h-[60vh] flex flex-col items-center justify-center"style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
     <div class="container py-10 bg-black/30 border-[1.5px] border-white/30 backdrop-blur-sm rounded-xl min-h-[50vh] px-10 lg:px-0 grid lg:grid-cols-3 ">
         <div class="text-white py-10 lg:py-0 px-10 ">
             <h1 class="roboto-slab ">Page New Test</h1>

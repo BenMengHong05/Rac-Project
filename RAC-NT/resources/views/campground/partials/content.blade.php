@@ -4,16 +4,16 @@
     <div
     class="container mt-20 pb-10 gap-20  min-h-[55vh] h-full grid lg:grid-cols-12  w-full items-center justify-center text-white  relative mx-auto lg:gap-20  px-10 lg:px-0">
     <div class="lg:col-start-1 lg:pr-20 lg:col-end-8 min-h-[55vh] flex flex-col justify-start">
-        <h1 class="roboto-slab text-6xl">Unlimited Adventure Awaits</h1>
+        <h1 class="roboto-slab text-6xl">Professional & Executive Education</h1>
         <div class="bg-black/30 border-[1.5px] border-white/30 text-[1.1rem] rounded-3xl backdrop-blur-sm p-8">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque culpa hic quod autem accusantium doloribus fuga similique expedita accusamus facilis? Aspernatur rerum minus quam ipsum quos mollitia incidunt qui modi?Molestiae possimus cumque, eaque explicabo debitis quam earum ipsam sed aut amet, neque sunt architecto non voluptate numquam perferendis voluptates enim omnis. Quos cupiditate a, minima vel doloremque error nobis?</p>
+            <p>For executives, managers, entrepreneurs, and technical professionals eager to tap fresh thinking and new research from MIT, we offer dozens of executive and professional programs. Some are online. Some are on campus. Ranging from two days to 20 months, they all share MIT’s signature focus on practical solutions for the real world.</p>
         </div>
     </div>
     <div class="lg:col-start-8 min-h-[55vh] relative  border-[1.5px] border-white/30 lg:col-end-13   bg-black/30 backdrop-blur-sm rounded-3xl">
         <picture>
             <img src="https://i.pinimg.com/736x/81/95/56/819556f38acc911ac1c86c7c34e6730c.jpg" class="object-cover rounded-3xl h-[55vh] w-full" alt="">
         </picture>
-        <div class="bg-black/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
+        <div class="bg-black/30 border-[1.5px] border-white/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
             <span>03/05/2025</span>
         </div>
     </div>
@@ -42,28 +42,28 @@
             </div>
         </div>
         <div class="grid gap-10 lg:grid-cols-2 2xl:grid-cols-3">
-            <div class="min-h-[30vh] relative w-full border-[1.5px] border-white/30 bg-black/30 backdrop-blur-sm rounded-3xl">
+            <div class=" relative border-[1.5px] border-white/30 bg-black/30 backdrop-blur-sm rounded-3xl">
                 <article class="w-full">
                     <img src="https://hfe.widen.net/content/mxprpnlkkx/png/Family-at-glass-1.png?w=625&h=500&keep=c&crop=yes&color=ffffff00&quality=80&u=4tmad2"
-                        class="w-full rounded-3xl h-full" alt="">
+                        class="w-full rounded-3xl h-[40vh]" alt="">
                         <div class=" bg-black/30 border-[1.5px] border-white/30 backdrop-blur-sm text-center px-5  border-1 overflow-hidden py-2 absolute rounded-3xl bottom-1.5 w-[calc(100%_-_15px)] shadow-small mx-[8px] z-10">
                             <h1 class="m-0 p-0 text-lg">Exclusive Season Pass Discount</h1>
                         </div>
                 </article>
             </div>
-            <div class="min-h-[30vh] relative w-full border-[1.5px] border-white/30 bg-black/30 backdrop-blur-sm rounded-3xl">
+            <div class=" relative border-[1.5px] border-white/30 bg-black/30 backdrop-blur-sm rounded-3xl">
                 <article class="w-full">
-                    <img src="https://hfe.widen.net/content/mxprpnlkkx/png/Family-at-glass-1.png?w=625&h=500&keep=c&crop=yes&color=ffffff00&quality=80&u=4tmad2"
-                        class="w-full rounded-3xl h-full" alt="">
+                    <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="w-full rounded-3xl h-[40vh]" alt="">
                         <div class=" bg-black/30 border-[1.5px] border-white/30 backdrop-blur-sm px-5 text-center   border-1 overflow-hidden py-2 absolute rounded-3xl bottom-1.5 w-[calc(100%_-_15px)] shadow-small mx-[8px] z-10">
                             <h1 class="m-0 p-0 text-lg">Exclusive Season Pass Discount</h1>
                         </div>
                 </article>
             </div>
-            <div class="min-h-[30vh] relative w-full border-[1.5px] border-white/30 bg-black/30 backdrop-blur-sm rounded-3xl">
+            <div class=" relative  border-[1.5px] border-white/30 bg-black/30 backdrop-blur-sm rounded-3xl">
                 <article class="w-full">
-                    <img src="https://hfe.widen.net/content/mxprpnlkkx/png/Family-at-glass-1.png?w=625&h=500&keep=c&crop=yes&color=ffffff00&quality=80&u=4tmad2"
-                        class="w-full rounded-3xl h-full" alt="">
+                    <img src="https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="w-full rounded-3xl h-[40vh]" alt="">
                         <div class=" bg-black/30 backdrop-blur-sm border-[1.5px] border-white/30 px-5 text-center  border-1 overflow-hidden py-2 absolute rounded-3xl bottom-1.5 w-[calc(100%_-_15px)] shadow-small mx-[8px] z-10">
                             <h1 class="m-0 p-0 text-lg">Exclusive Season Pass Discount</h1>
                         </div>
@@ -84,7 +84,7 @@
 <section id="Home-Page"
     class="min-h-[50vh] flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
     <div
-        class="container px-10 lg:px-0 min-h-[30vh] w-full rounded-3xl  grid grid-cols-none lg:grid-cols-2  2xl:grid-cols-3 gap-10">
+        class="container px-10 lg:px-0 min-h-[30vh] w-full rounded-3xl py-10  grid grid-cols-none lg:grid-cols-2  2xl:grid-cols-3 gap-10">
         <div
             class="min-h-[30vh] w-[100%] px-5 py-5 flex flex-col gap-5 justify-center items-center border-[2px] cursor-pointer transition-all duration-700 border-white/30  text-white text-center bg-black/15 hover:bg-black/35 backdrop-blur-sm rounded-xl">
             <h1 class="m-0 p-0 text-3xl roboto-slab">Cabins</h1>

@@ -13,7 +13,7 @@
         <picture>
             <img src="https://i.pinimg.com/736x/81/95/56/819556f38acc911ac1c86c7c34e6730c.jpg" class="object-cover rounded-3xl h-[55vh] w-full" alt="">
         </picture>
-        <div class="bg-black/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
+        <div class="bg-black/30 rounded-3xl border-[1.5px] border-white/30 absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
             <span>03/05/2025</span>
         </div>
     </div>
@@ -29,7 +29,7 @@
 </section>
 <section id="Home-Page"
     class="min-h-[80vh]  flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container mx-auto grid grid-cols-none  gap-10 lg:grid-cols-12 px-10 lg:px-0">
+    <div class="container mx-auto grid grid-cols-none py-10  gap-10 lg:grid-cols-12 px-10 lg:px-0">
         <div class="lg:col-start-1 lg:col-end-4  border-[1.5px] border-white/30 rounded-3xl min-h-[40vh] bg-black/30 backdrop-blur-sm text-white "
             style="">
             <article class="h-full">
@@ -70,8 +70,8 @@
     </div>
 </section>
 <section id="Home-Page"
-    class="min-h-[80vh] flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-12 pt-10 gap-10 lg:gap-10 px-10 lg:px-0">
+    class="min-h-[50vh] flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
+    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-12 py-10 gap-10 lg:gap-10 px-10 lg:px-0">
         <div class="lg:col-start-1 lg:col-end-5 relative">
             <div class="carousel-container relative ">
                 <div class="carousel ">

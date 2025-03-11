@@ -13,7 +13,7 @@
         <picture>
             <img src="https://i.pinimg.com/736x/81/95/56/819556f38acc911ac1c86c7c34e6730c.jpg" class="object-cover rounded-3xl h-[55vh] w-full" alt="">
         </picture>
-        <div class="bg-black/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
+        <div class="bg-black/30 border-[1.5px] border-white/30 rounded-3xl absolute bottom-0 right-0 px-5 py-2.5 text-lg backdrop-blur-sm m-2">
             <span>03/05/2025</span>
         </div>
     </div>
@@ -29,7 +29,7 @@
 </section>
 <section id="Home-Page"
     class=" gap-20 flex flex-col items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container w-full  items-center justify-center px-10 lg:px-0 relative  rounded-lg text-white   gap-10  ">
+    <div class="container w-full  items-center justify-center py-10 px-10 lg:px-0 relative  rounded-lg text-white   gap-10  ">
         <div class="min-h-[40vh] gap-10 grid lg:grid-cols-12">
             <div
                 class="lg:col-start-1 lg:col-end-6 w-full border-[1.5px] border-white/30 bg-black/30 rounded-3xl backdrop-blur h-full">
@@ -47,7 +47,7 @@
                     suscipit provident distinctio quibusdam. Veniam cum distinctio dignissimos, saepe sapiente quas
                     illum
                     praesentium at voluptatum, molestias rerum tempora totam perspiciatis eius dolorem a?</p>
-                <div class="date text-center absolute bg-white/30 backdrop-blur-sm text-lg px-5 py-2.5 inline-flex m-2 rounded-3xl right-0 bottom-0 ">
+                <div class="date text-center absolute bg-white/30 border-[1.5px] border-white/30 backdrop-blur-sm text-lg px-5 py-2.5 inline-flex m-5 rounded-3xl right-0 bottom-0 ">
                     <span>
                         03/04/2025
                     </span>
@@ -66,7 +66,7 @@
 </section>
 <section id="Home-Page"
     class="min-h-[50vh] flex items-center justify-center  "style="background-image: url({{ asset('images/nature-home-page.jpg') }});background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed; filter">
-    <div class="container px-10 lg:px-0 w-full  min-h-[30vh]   rounded-3xl  mx-auto grid  grid-rows-2 gap-10">
+    <div class="container px-10 lg:px-0 w-full  min-h-[30vh] py-10  rounded-3xl  mx-auto grid  grid-rows-2 gap-10">
         <div class="grid lg:grid-cols-12  gap-10 w-full">
             <div
                 class="lg:col-start-1  relative lg:col-end-8 min-h-[45vh] backdrop-blur-sm bg-black/30 rounded-3xl border-[1.5px] border-white/30">

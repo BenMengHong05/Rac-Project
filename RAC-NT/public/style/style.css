@@ -149,4 +149,14 @@ button.next {
 .card-nature:hover > .title{
     color: red;
 }
-
+/* .title-explore{
+    animation: title-explore 0.3s 0.3s;
+    animation-iteration-count: infinite;
+    transition: all 0.3s linear ;
+}
+@keyframes title-explore {
+    0%{
+        ster
+    }
+}
+ */
